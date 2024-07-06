@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link>
+    <meta charset="UTF-8" />
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order Management</title>
+<link href="https://fonts.cdnfonts.com/css/svn-gilroy" rel="stylesheet">
+                                
+    <link rel="icon" type=" shopnix image" href="./images/feather-solid.svg"></link>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <aside class="sidebar">
+        <div class="icon-section">
+        <div class="logo"><i class="fa-solid fa-feather"></i></div>
+        
+        <ul class="menu">
+            
+          <li class="menu-item pie-chart">
+            <i class="fa-solid fa-chart-pie"></i>
+          </li>
+          <li class="menu-item bag"><i class="fa-solid fa-bag-shopping"></i></li>
+          
+          <li class="menu-item clipboard"><i class="fa-regular fa-clipboard"></i></li>
+          <li class="menu-item table"><i class="fa-solid fa-table-list"></i></li>
+          <li class="menu-item settings"><i class="fa-solid fa-gear"></i></li>
+        
+        </ul>
+    
+    </div>
+        <div class="profile"><i class="fa-solid fa-user"></i></div>
+        
+      </aside>
+      <main class="main-content">
+        <header class="header">
+          <nav class="nav-tabs">
+            <button class="tab-button active Orders">Order</button>
+            <button class="tab-button Ongoing-Orders">Ongoing Orders</button>
+            <button class="tab-button Table-veiw">Table View</button>
+            <button class="tab-button pay-later">Pay Later View</button>
+          </nav>
+        </header>
+        <div class="content">
+          <h1>Ongoing Orders</h1>
+          <div class="search-container">
+            <div class="search-bar">
+              <i class="fas fa-search search-icon"></i>
+              <input
+                type="text"
+                placeholder="Search for foods, drinks, etc..."
+              />
+            </div>
+          </div>
+          <div class="filter-container">
+            <div class="filter-options">
+              <button class="filter-button active">All</button>
+              <button class="filter-button">Dine In</button>
+              <button class="filter-button">To Go</button>
+              <button class="filter-button">Delivery</button>
+            </div>
+            <div class="slider"></div>
+          </div>
+
+          <!-- <hr> -->
+          <div class="order-cards">
+            <!-- card1 -->
+            <div class="order-card dine-in">
+              <div class="order-details">
+                <div class="order-left">
+                  <div class="table">Table No. 2A</div>
+                  <div class="name">Name: Kevin</div>
+                </div>
+                <div class="order-right">
+                  <div class="order-num">#12345</div>
+                  <div>&nbsp; $1000</div>
+                </div>
+              </div>
+              <div class="order-actions">
+                <div class="order-buttons">
+                  <button class="pay-button">Pay</button>
+                  <button class="pay-later-button">Later</button>
+                </div>
+                <div class="icon-seperate">
+                  <div class="cross icon">
+                    <i class="fa-solid fa-xmark"></i>
+                  </div>
+                  <div class="print icon">
+                    <i class="fa-solid fa-print"></i>
+                  </div>
+                  <div class="edit icon">
+                    <i class="fa-regular fa-pen-to-square"></i>
+                  </div>
+                </div>
+              </div>
+              <hr />
+              <div class="order-info order-dine-in">
+                <div class="Dine-In category-text">Dine In</div>
+                <div class="mins">
+                  <i class="fa-regular fa-clock"></i>&nbsp; 15 mins
+                </div>
+              </div>
+            </div>
+            <!-- card2 -->
+            <div class="order-card to-go">
+              <div class="order-details">
+                <div class="order-left">
+                  <div class="table">Table No. 2A</div>
+                  <div class="name">Name: Kevin</div>
+                </div>
+                <div class="order-right">
+                  <div class="order-num">#12345</div>
+                  <div>&nbsp; $1000</div>
+                </div>
+              </div>
+              <div class="order-actions">
+                <div class="order-buttons">
+                  <button class="pay-button">Pay</button>
+                  <button class="pay-later-button">Later</button>
+                </div>
+                <div class="icon-seperate">
+                  <div class="cross icon">
+                    <i class="fa-solid fa-xmark"></i>
+                  </div>
+                  <div class="print icon">
+                    <i class="fa-solid fa-print"></i>
+                  </div>
+                  <div class="edit icon">
+                    <i class="fa-regular fa-pen-to-square"></i>
+                  </div>
+                </div>
+              </div>
+              <hr />
+              <div class="order-info oder-dine-in">
+                <div class="Dine-In category-text">Dine In</div>
+                <div class="mins">
+                  <i class="fa-regular fa-clock"></i>&nbsp; 15 mins
+                </div>
+              </div>
+            </div>
+            <!-- card3 -->
+            <div class="order-card to-go">
+              <div class="order-details">
+                <div class="order-left">
+                  <div class="table">Table No. 2A</div>
+                  <div class="name">Name: Kevin</div>
+                </div>
+                <div class="order-right">
+                  <div class="order-num">#12345</div>
+                  <div>&nbsp; $1000</div>
+                </div>
+              </div>
+              <div class="order-actions">
+                <div class="order-buttons">
+                  <button class="pay-button">Pay</button>
+                  <button class="pay-later-button">Later</button>
+                </div>
+                <div class="icon-seperate">
+                  <div class="cross icon">
+                    <i class="fa-solid fa-xmark"></i>
+                  </div>
+                  <div class="print icon">
+                    <i class="fa-solid fa-print"></i>
+                  </div>
+                  <div class="edit icon">
+                    <i class="fa-regular fa-pen-to-square"></i>
+                  </div>
+                </div>
+              </div>
+              <hr />
+              <div class="order-info order-to-go">
+                <div class="To-Go category-text">To Go</div>
+                <div class="mins">
+                  <i class="fa-regular fa-clock"></i>&nbsp; 15 mins
+                </div>
+              </div>
+            </div>
+            <!-- card4 -->
+
+            <div class="order-card to-go">
+              <div class="order-details">
+                <div class="order-left">
+                  <div class="table">Table No. 2A</div>
+                  <div class="name">Name: Kevin</div>
+                </div>
+                <div class="order-right">
+                  <div class="order-num">#12345</div>
+                  <div>&nbsp; $1000</div>
+                </div>
+              </div>
+              <div class="order-actions">
+                <div class="order-buttons">
+                  <button class="pay-button">Pay</button>
+                  <button class="pay-later-button">Later</button>
+                </div>
+                <div class="icon-seperate">
+                  <div class="cross icon">
+                    <i class="fa-solid fa-xmark"></i>
+                  </div>
+                  <div class="print icon">
+                    <i class="fa-solid fa-print"></i>
+                  </div>
+                  <div class="edit icon">
+                    <i class="fa-regular fa-pen-to-square"></i>
+                  </div>
+                </div>
+              </div>
+              <hr />
+              <div class="order-info order-to-go">
+                <div class="To-Go category-text">To Go</div>
+                <div class="mins">
+                  <i class="fa-regular fa-clock"></i>&nbsp; 15 mins
+                </div>
+              </div>
+            </div>
+            <!-- card5 -->
+
+            <div class="order-card to-go">
+              <div class="order-details">
+                <div class="order-left">
+                  <div class="table">Table No. 2A</div>
+                  <div class="name">Name: Kevin</div>
+                </div>
+                <div class="order-right">
+                  <div class="order-num">#12345</div>
+                  <div>&nbsp; $1000</div>
+                </div>
+              </div>
+              <div class="order-actions">
+                <div class="order-buttons">
+                  <button class="pay-button">Pay</button>
+                  <button class="pay-later-button">Later</button>
+                </div>
+                <div class="icon-seperate">
+                  <div class="cross icon">
+                    <i class="fa-solid fa-xmark"></i>
+                  </div>
+                  <div class="print icon">
+                    <i class="fa-solid fa-print"></i>
+                  </div>
+                  <div class="edit icon">
+                    <i class="fa-regular fa-pen-to-square"></i>
+                  </div>
+                </div>
+              </div>
+              <hr />
+              <div class="order-info order-delivery">
+                <div class="Delivery category-text">Delivery</div>
+                <div class="mins">
+                  <i class="fa-regular fa-clock"></i>&nbsp; 15 mins
+                </div>
+              </div>
+            </div>
+            <!-- card6 -->
+
+            <div class="order-card to-go">
+              <div class="order-details">
+                <div class="order-left">
+                  <div class="table">Table No. 2A</div>
+                  <div class="name">Name: Kevin</div>
+                </div>
+                <div class="order-right">
+                  <div class="order-num">#12345</div>
+                  <div>&nbsp; $1000</div>
+                </div>
+              </div>
+              <div class="order-actions">
+                <div class="order-buttons">
+                  <button class="pay-button">Pay</button>
+                  <button class="pay-later-button">Later</button>
+                </div>
+                <div class="icon-seperate">
+                  <div class="cross icon">
+                    <i class="fa-solid fa-xmark"></i>
+                  </div>
+                  <div class="print icon">
+                    <i class="fa-solid fa-print"></i>
+                  </div>
+                  <div class="edit icon">
+                    <i class="fa-regular fa-pen-to-square"></i>
+                  </div>
+                </div>
+              </div>
+              <hr />
+              <div class="order-info order-delivery">
+                <div class="Delivery category-text">Delivery</div>
+                <div class="mins">
+                  <i class="fa-regular fa-clock"></i>&nbsp; 15 mins
+                </div>
+              </div>
+            </div>
+            <!-- card7 -->
+            <div class="order-card to-go">
+              <div class="order-details">
+                <div class="order-left">
+                  <div class="table">Table No. 2A</div>
+                  <div class="name">Name: Kevin</div>
+                </div>
+                <div class="order-right">
+                  <div class="order-num">#12345</div>
+                  <div>&nbsp; $1000</div>
+                </div>
+              </div>
+              <div class="order-actions">
+                <div class="order-buttons">
+                  <button class="pay-button">Pay</button>
+                  <button class="pay-later-button">Later</button>
+                </div>
+                <div class="icon-seperate">
+                  <div class="cross icon">
+                    <i class="fa-solid fa-xmark"></i>
+                  </div>
+                  <div class="print icon">
+                    <i class="fa-solid fa-print"></i>
+                  </div>
+                  <div class="edit icon">
+                    <i class="fa-regular fa-pen-to-square"></i>
+                  </div>
+                </div>
+              </div>
+              <hr />
+              <div class="order-info order-to-go">
+                <div class="To-Go category-text">To Go</div>
+                <div class="mins">
+                  <i class="fa-regular fa-clock"></i>&nbsp; 15 mins
+                </div>
+              </div>
+            </div>
+            <!-- card8 -->
+
+            <div class="order-card to-go">
+              <div class="order-details">
+                <div class="order-left">
+                  <div class="table">Table No. 2A</div>
+                  <div class="name">Name: Kevin</div>
+                </div>
+                <div class="order-right">
+                  <div class="order-num">#12345</div>
+                  <div>&nbsp; $1000</div>
+                </div>
+              </div>
+              <div class="order-actions">
+                <div class="order-buttons">
+                  <button class="pay-button">Pay</button>
+                  <button class="pay-later-button">Later</button>
+                </div>
+                <div class="icon-seperate">
+                  <div class="cross icon">
+                    <i class="fa-solid fa-xmark"></i>
+                  </div>
+                  <div class="print icon">
+                    <i class="fa-solid fa-print"></i>
+                  </div>
+                  <div class="edit icon">
+                    <i class="fa-regular fa-pen-to-square"></i>
+                  </div>
+                </div>
+              </div>
+              <hr />
+              <div class="order-info order-delivery">
+                <div class="Delivery category-text">Delivery</div>
+                <div class="mins">
+                  <i class="fa-regular fa-clock"></i>&nbsp; 15 mins
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <div class="overflow">
+        <div class="order-summary">
+          <div class="summary-header">
+            <div class="table-no">Table No.</div>
+            <div class="table-name">Name</div>
+            <div class="balance-text">Balance Due: $450</div>
+            <div class="order-types">
+              <button class="order-type-button order-type-button-dine-in">
+                Dine In
+              </button>
+              <button class="order-type-button order-type-button-to-go">
+                To Go
+              </button>
+              <button class="order-type-button order-type-button-delivery">
+                Delivery
+              </button>
+            </div>
+          </div>
+          <div class="summary-items">
+            <div class="item-row">
+              <div class="s-h summary-item-name-header">Item Name</div>
+              <div class="s-h summary-qty-header">Qty</div>
+              <div class="s-h summary-price-header">Price</div>
+              <div class="s-h summary-icon-header"></div>
+            </div>
+            <div class="item-row">
+              <div class="summary-item-name">
+                Chessy Veg Pasta<i class="fa-regular fa-pen-to-square pen"></i>
+                <div class="summary-name">Amount: $350</div>
+              </div>
+              <div class="summary-qty">2</div>
+              <div class="summary-price">$700</div>
+              <div class="summary-icon">
+                <i class="fa-solid fa-percent"></i>
+              </div>
+            </div>
+
+            <div class="item-row">
+              <div class="summary-item-name">
+                Chessy Veg Pasta<i class="fa-regular fa-pen-to-square pen"></i>
+                <div class="summary-name">Amount: $350</div>
+              </div>
+              <div class="summary-qty">1</div>
+              <div class="summary-price">$350</div>
+              <div class="summary-icon">
+                <i class="fa-solid fa-percent"></i>
+              </div>
+            </div>
+            <div class="item-row">
+              <div class="summary-item-name">
+                Chessy Veg Pasta<i class="fa-regular fa-pen-to-square pen"></i>
+                <div class="summary-name">name</div>
+              </div>
+              <div class="summary-qty">2</div>
+              <div class="summary-price">$700</div>
+              <div class="summary-icon">
+                <i class="fa-solid fa-percent"></i>
+              </div>
+            </div>
+            <div class="item-row">
+              <div class="summary-item-name">
+                Chessy Veg Pasta<i class="fa-regular fa-pen-to-square pen"></i>
+                <div class="summary-name">name</div>
+              </div>
+              <div class="summary-qty">2</div>
+              <div class="summary-price">$700</div>
+              <div class="summary-icon">
+                <i class="fa-solid fa-percent"></i>
+              </div>
+            </div>
+            <div class="item-row">
+              <div class="summary-item-name">
+                Chessy Veg Pasta<i class="fa-regular fa-pen-to-square pen"></i>
+                <div class="summary-name">name</div>
+              </div>
+              <div class="summary-qty">2</div>
+              <div class="summary-price">$700</div>
+              <div class="summary-icon">
+                <i class="fa-solid fa-percent"></i>
+              </div>
+            </div>
+            <div class="item-row">
+              <div class="summary-item-name">
+                Chessy Veg Pasta<i class="fa-regular fa-pen-to-square pen"></i>
+                <div class="summary-name">name</div>
+              </div>
+              <div class="summary-qty">2</div>
+              <div class="summary-price">$700</div>
+              <div class="summary-icon">
+                <i class="fa-solid fa-percent"></i>
+              </div>
+            </div>
+            <div class="item-row">
+              <div class="summary-item-name">
+                Chessy Veg Pasta<i class="fa-regular fa-pen-to-square pen"></i>
+                <div class="summary-name">name</div>
+              </div>
+              <div class="summary-qty">2</div>
+              <div class="summary-price">$700</div>
+              <div class="summary-icon">
+                <i class="fa-solid fa-percent"></i>
+              </div>
+            </div>
+
+            <div class="summary-notes">
+              <input
+                class="summary-notes"
+                type="text"
+                placeholder="Add cooking instructions (Note)"
+              />
+            </div>
+
+            
+          </div>
+          <div class="summary-bg">
+            <div class="summary-footer">
+              <div class="summary-total">Sub Total <div>$1100</div> </div>
+              <div class="summary-total">Discount <div>$100</div> </div>
+              <div class="summary-check-box"><input class="summary-check-box" type="checkbox" name="checkbox_name" value="checkbox_value">donate</div>
+              <div class="summary-total total-bold">Total <div>$1000</div> </div>
+              
+              <div class="summary-actions">
+                <button class="summary-cancel-button cancel-button">Cancel</button>
+                <button class="summary-add-items-button add-items-button">Add Items</button>
+                <button class="summary-pay-button Pay-button">Pay</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
